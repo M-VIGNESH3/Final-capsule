@@ -34,5 +34,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}/app:latest
-            ghcr.io/${{ github.repository }}/app:${{ github.sha }}
+            ghcr.io/m-vignesh3/final-capsule/app:latest
+            ghcr.io/m-vignesh3/final-capsule/app:${{ github.sha }}
