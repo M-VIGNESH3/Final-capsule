@@ -35,4 +35,4 @@ jobs:
           push: true
           tags: |
             ghcr.io/m-vignesh3/final-capsule/app:latest
-            ghcr.io/m-vignesh3/final-capsule/app:${{ github.sha }}
+            ghcr.io/m-vignesh3/final-capsule/app:${{ github.event.inputs.image_tag }}
